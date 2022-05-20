@@ -6,9 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+        table#customers {
+            font-size:16px;
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+        }
+        #customers td, #customers th {
+            text-align: left;
+            padding: 8px;
+        }
+        #customers th {
+            padding-top: 11px;
+            padding-bottom: 11px;
+            background-color: #04AA6D;
+            color: white;
+        }
+        table.blacktableborders, table.blacktableborders th, table.blacktableborders td {
+          border: 1px solid;
+        }
+        table.fullwidthtable, table.fullwidthtable th, table.fullwidthtable td {
+          border: 1px solid black;
+          width: 100%;
+        }
+        body.darkpagetheme table.fullwidthtable, body.darkpagetheme table.fullwidthtable th, body.darkpagetheme table.fullwidthtable td {
+          border: 1px solid;
+        }
+        table.bordercollapsetable, table.bordercollapsetable th, table.bordercollapsetable td {
+          border: 1px solid;
+          width: 100%;
+          border-collapse: collapse;
+        }
+        table.onlytableborder {
+          border: 1px solid;
+          width: 100%;
+          border-collapse: collapse;
+        }
+        
+        </style>
 </head>
 <body>
     hello hihihihihihihih
     ttt
+    <table id="customers" class="ws-table-all">
+        <tbody><tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+        </tr>
+        <tr>
+        <td>Berglunds snabbköp</td>
+        <td>Christina Berglund</td>
+        <td>Sweden</td>
+        </tr>
+        <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+        </tr>
+        <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+        </tr>
+        <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+        </tr>
+        <tr>
+        <td>Königlich Essen</td>
+        <td>Philip Cramer</td>
+        <td>Germany</td>
+        </tr>
+        <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+        </tr>
+        <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+        </tr>
+        </tbody></table>
 </body>
 </html>
